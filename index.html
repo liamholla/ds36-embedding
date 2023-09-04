@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Back to school 🫣</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <script src="./app.js" defer></script>
+    <!--Link to Skeleton Style Sheet which makes it look nicer-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Back to school embedding project</h1>
+    <div>
+      <button id="exportPDF">Export PDF</button>
+      <button id="exportPPT">Export PPT</button>
+    </div>
+    <hr />
+    <div>
+      <h2>filters</h2>
+      <input type="number" placeholder="Min Value" id="minValue" />
+      <input type="number" placeholder="Max Value" id="maxValue" />
+      <button id="FilterButton">Filter!</button>
+    </div>
+    <div id="vizContainer"></div>
+  </body>
+</html>
