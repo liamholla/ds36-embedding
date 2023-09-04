@@ -22,6 +22,8 @@ function initViz() {
   viz = new tableau.Viz(containerDiv, url, options);
 }
 
+console.log("I've changed stuff");
+
 document.addEventListener("DOMContentLoaded", initViz);
 
 // Export PDF
